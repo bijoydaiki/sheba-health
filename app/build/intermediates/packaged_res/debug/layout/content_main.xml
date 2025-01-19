@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width= "match_parent"
+    android:layout_height= "match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    app:layout_behavior= "@string/appbar_scrolling_view_behavior"
+    tools:context= ".Primary"
+    tools:showIn= "@layout/app_bar_primary" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/deep_green"
+            android:textSize="18dp"
+            android:justificationMode="inter_word"
+            android:text="Monitoring  Procedure"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="55dp"
+            android:id="@+id/id_instruction"
+            android:text="Instruction"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:backgroundTint="@color/deep_green">
+        </Button>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="200dp">
+
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="400dp"
+            android:layout_height="300dp"></VideoView>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/step1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/output" />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/HR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heart Rate Tracking"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:backgroundTint="@color/deep_green" />
+
+
+    <Button
+        android:id="@+id/VS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vital Tracking"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:backgroundTint="@color/deep_green" />
+
+    <Button
+        android:id="@+id/id_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/deep_green"
+        android:fontFamily="sans-serif-thin"
+        android:text="Step Tracking"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="bold"></Button>
+    <Button
+        android:id="@+id/id_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/deep_green"
+        android:fontFamily="sans-serif-thin"
+        android:text="Record Page"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="bold"></Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textColor="#900"
+        android:justificationMode="inter_word"
+        android:background="@drawable/textinputborder2"
+        android:text="This App is not intended  for medical use, is only designed for General Fitness and Wellness purposes,  is not a medical device,  it uses Smartphone sensors  to measure  Fitness and Wellness level of a User."
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="3dp"
+        android:padding="5dp"
+        android:textColor="#900"
+        android:justificationMode="inter_word"
+       android:text="In addition  to Health Check,  for  a complete  health Services  and Products,  a User needs to visit  'Sheba One' User App  by clicking  here"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ImageButton
+        android:layout_width="50dp"
+        android:textSize="18sp"
+        android:id="@+id/id_playstore"
+        android:textColor="#fff"
+        android:src="@drawable/playstore"
+        android:backgroundTint="@color/green"
+        android:layout_height="50dp">
+    </ImageButton>
+<!--     =================  -->
+    <!--     =================  -->
+    <ImageButton
+        android:id="@+id/RR"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/rr1" />
+
+    <ImageButton
+        android:id="@+id/BP"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/bp1" />
+
+
+    <ImageButton
+        android:id="@+id/O2"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/or1" />
+
+
+    <ImageButton
+        android:id="@+id/About"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:scaleType="fitEnd"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/ab" />
+
+
+</LinearLayout>

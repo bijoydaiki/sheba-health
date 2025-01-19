@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sheba Health Monitor</string>
+    <string name="msg">Please enable all permission</string>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_primary">Primary</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+</resources>

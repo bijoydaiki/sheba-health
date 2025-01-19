@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <color name="ash">#CCCCCC</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#25338e</color>
+    <color name="deep_green">#286705</color>
+    <color name="green">#3D9F07</color>
+    <color name="white">#FDFDFD</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <string name="app_name">Sheba Health Monitor</string>
+    <string name="msg">Please enable all permission</string>
+    <string name="nav_close">Close</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_open">Open</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="title_activity_primary">Primary</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Base.Theme.HealthMonitor" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.HealthMonitor" parent="Base.Theme.HealthMonitor"/>
+    <style name="Theme.HealthMonitor.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.HealthMonitor.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.HealthMonitor.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

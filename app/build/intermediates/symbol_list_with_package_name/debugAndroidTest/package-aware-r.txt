@@ -1,0 +1,3 @@
+com.riad.shebahealthcheck.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

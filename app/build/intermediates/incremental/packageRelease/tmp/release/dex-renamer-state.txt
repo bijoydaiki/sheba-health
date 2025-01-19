@@ -1,0 +1,4 @@
+#Sat Jan 18 16:47:10 BDT 2025
+base.0=C\:\\Users\\USER\\AndroidStudioProjects\\Sheba-Mobile-Health-Monitoring-main\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

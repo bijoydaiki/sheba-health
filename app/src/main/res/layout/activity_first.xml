@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:weightSum="1"
+    tools:context="com.riad.shebahealthcheck.First">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:padding="60dp"
+        android:background="@drawable/sheba_icon"
+        android:layout_height="90dp">
+    </ImageView>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="WELCOME TO SMART PHONE HEALTH MONITORING"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#2BBD10"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20" />
+
+    <TextView
+        android:id="@+id/tva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/deep_green"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10" />
+
+    <EditText
+        android:id="@+id/edtu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:background="@drawable/textinputborder"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/black" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:id="@+id/tvw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/deep_green"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10" />
+
+    <EditText
+        android:id="@+id/edtp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:background="@drawable/textinputborder"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/black" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRemember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:textColor="@color/deep_green" />
+
+    <Button
+        android:id="@+id/newacc"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Create new Account"
+        android:textAlignment="center"
+        android:textColor="@color/deep_green" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <ImageButton
+        android:id="@+id/prime"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login"
+        android:layout_marginBottom="40dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_instruction.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_instruction.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_respiration_process.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_respiration_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_policy.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_heart_rate_result.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_heart_rate_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_primary2.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_primary2.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_blood_pressure_result.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_blood_pressure_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_record_page.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_record_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_o2_result.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_o2_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "com.riad.shebahealthcheck.app-mergeDebugResources-44:/layout/list_item.xml",
+        "source": "com.riad.shebahealthcheck.app-main-47:/layout/list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_first.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_step_counter.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_step_counter.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_o2_process.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_o2_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_heart_rate_process.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_heart_rate_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_vital_signs_results.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_vital_signs_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_diabetes_process.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_diabetes_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\app_bar_primary.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\app_bar_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_diabetes_result.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_diabetes_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\list_item.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_contact.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\navigation_drawer_menu.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\navigation_drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_vital_signs_process.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_vital_signs_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\content_main.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_respiration_result.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_respiration_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_about_app.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_about_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_start_vital_signs.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_start_vital_signs.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-mergeDebugResources-44:\\layout\\activity_blood_pressure_process.xml",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-47:\\layout\\activity_blood_pressure_process.xml"
+    },
+    {
+        "merged": "com.riad.shebahealthcheck.app-mergeDebugResources-44:/layout/activity_record_page.xml",
+        "source": "com.riad.shebahealthcheck.app-main-47:/layout/activity_record_page.xml"
+    }
+]

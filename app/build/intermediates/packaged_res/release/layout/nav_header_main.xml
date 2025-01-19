@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#0D6526"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_height="120dp">
+
+    <ImageView
+        android:id= "@+id/imageView"
+        android:layout_width= "wrap_content"
+        android:layout_gravity="center"
+        android:layout_height= "match_parent"
+        android:padding="10dp"
+        android:src="@drawable/sheba_header"/>
+
+    </LinearLayout>
+
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:cardElevation="10dp"-->
+<!--        app:cardCornerRadius="20dp"-->
+<!--        app:cardBackgroundColor="@color/deep_green"-->
+<!--        android:elevation="20sp"-->
+<!--        app:cardPreventCornerOverlap="true"-->
+<!--        app:cardUseCompatPadding="true">-->
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:text="🏠    Home"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textSize="15dp"-->
+<!--            android:padding="15sp"-->
+<!--            android:backgroundTint="@color/deep_green"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        </Button>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:cardElevation="10dp"-->
+<!--        app:cardCornerRadius="20dp"-->
+
+<!--        app:cardBackgroundColor="@color/deep_green"-->
+<!--        android:elevation="20sp"-->
+<!--        app:cardPreventCornerOverlap="true"-->
+<!--        app:cardUseCompatPadding="true">-->
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:text="☎️    Call"-->
+<!--            android:id="@+id/id_call"-->
+<!--            android:textSize="15dp"-->
+<!--            android:padding="15sp"-->
+<!--            android:backgroundTint="@color/deep_green"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        </Button>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:cardElevation="10dp"-->
+<!--        app:cardCornerRadius="20dp"-->
+
+<!--        app:cardBackgroundColor="@color/deep_green"-->
+<!--        android:elevation="20sp"-->
+<!--        app:cardPreventCornerOverlap="true"-->
+<!--        app:cardUseCompatPadding="true">-->
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/id_mail"-->
+<!--            android:backgroundTint="@color/deep_green"-->
+<!--            android:padding="15sp"-->
+<!--            android:text="💌    Mail"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textSize="15dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:cardElevation="10dp"-->
+<!--        app:cardCornerRadius="20dp"-->
+<!--        app:cardBackgroundColor="@color/deep_green"-->
+<!--        android:elevation="20sp"-->
+<!--        app:cardPreventCornerOverlap="true"-->
+<!--        app:cardUseCompatPadding="true">-->
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:text="👉    About"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textSize="15dp"-->
+<!--            android:padding="15sp"-->
+<!--            android:backgroundTint="@color/deep_green"-->
+<!--            android:textColor="#fff"-->
+<!--            android:id="@+id/About"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        </Button>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+</LinearLayout>
