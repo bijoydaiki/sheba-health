@@ -4,6 +4,7 @@ package com.riad.shebahealthcheck.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,16 +21,24 @@ public final class ListItemBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView txtBloodSugar;
+  public final TextView bloodSugarText;
 
   @NonNull
-  public final TextView txtDate;
+  public final TextView dateTimeText;
 
-  private ListItemBinding(@NonNull LinearLayout rootView, @NonNull TextView txtBloodSugar,
-      @NonNull TextView txtDate) {
+  @NonNull
+  public final Button deleteButton;
+
+  @NonNull
+  public final TextView nameText;
+
+  private ListItemBinding(@NonNull LinearLayout rootView, @NonNull TextView bloodSugarText,
+      @NonNull TextView dateTimeText, @NonNull Button deleteButton, @NonNull TextView nameText) {
     this.rootView = rootView;
-    this.txtBloodSugar = txtBloodSugar;
-    this.txtDate = txtDate;
+    this.bloodSugarText = bloodSugarText;
+    this.dateTimeText = dateTimeText;
+    this.deleteButton = deleteButton;
+    this.nameText = nameText;
   }
 
   @Override
@@ -59,19 +68,32 @@ public final class ListItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.txtBloodSugar;
-      TextView txtBloodSugar = ViewBindings.findChildViewById(rootView, id);
-      if (txtBloodSugar == null) {
+      id = R.id.bloodSugarText;
+      TextView bloodSugarText = ViewBindings.findChildViewById(rootView, id);
+      if (bloodSugarText == null) {
         break missingId;
       }
 
-      id = R.id.txtDate;
-      TextView txtDate = ViewBindings.findChildViewById(rootView, id);
-      if (txtDate == null) {
+      id = R.id.dateTimeText;
+      TextView dateTimeText = ViewBindings.findChildViewById(rootView, id);
+      if (dateTimeText == null) {
         break missingId;
       }
 
-      return new ListItemBinding((LinearLayout) rootView, txtBloodSugar, txtDate);
+      id = R.id.deleteButton;
+      Button deleteButton = ViewBindings.findChildViewById(rootView, id);
+      if (deleteButton == null) {
+        break missingId;
+      }
+
+      id = R.id.nameText;
+      TextView nameText = ViewBindings.findChildViewById(rootView, id);
+      if (nameText == null) {
+        break missingId;
+      }
+
+      return new ListItemBinding((LinearLayout) rootView, bloodSugarText, dateTimeText,
+          deleteButton, nameText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

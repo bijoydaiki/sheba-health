@@ -1,24 +1,24 @@
+﻿
 	SHEBA ONE-----	PRIVACY POLICY
-
-This privacy policy applies to the Sheba Health Check app (hereby referred to as "Application") for mobile devices  that was created by Sheba One Ltd. (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+This privacy policy applies to the Sheba Health  Monitor  app (hereby referred to as "Application") for mobile devices  that was created by Sheba One Ltd. (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
 This privacy policy ("Privacy Policy") explains how we collect, use, share  and protect Personal information about the Users of the Services. We created this Privacy Policy to demonstrate our commitment to the protection of your privacy and your personal information. Your use of and access to the Services is subject to this Privacy Policy and our Terms of Use. 
  COLLECTION, USES, AND SHARING  OF  PERSONAL INFORMATION/DATA
-
 In order to assess wellness and Fitness, this app collects following personal information/Data----
-* Location Data--The app collects your Location data even when the app is closed or not in use.
-Uses---The Location Data will be used in walking counter Fitness service  for counting steps in coordination with GPS.
+* Location Data--The app collects your Location data even when the app is closed or not in use. 
+Uses---The Location Data will be used in Step/Jogging tracking
+ service  for counting steps in coordination with GPS.
 Sharing---This data will not be shared with any third party
+* Activity Data-The app collects your  Step/Jogging activity  when Step/Jogging tracking services in use
+Uses---Above data are used  for counting steps for walking/Jogging
+Sharing---Above  will not be shared  with any third party,  Even Sheba One  can't access these data as these remain within app, not stored in Data base.
+
 * Personally identifiable  data (such as your name, gender, height, weight, your date of birth etc ); 
 Uses---Above data are used for registration as well as defining  Fitness parameters
 Sharing---Above  will not be shared  with any third party,  Even Sheba One  can't access these data as these remain within app, not stored in Data base.
 * . Blood volume and sugar level in fingers
 Uses-These are used for measuring  various Fitness parameter  available in this App
    Sharing---It will not be shared with any third party
-* Amount of  Human Chorionic Gonadotropin (HCG) in finger Bloods
-   Uses-These are used for measuring   Fitness parameter  available in this App
-   Sharing---It will not be shared with any third party
-* Any other necessary  Biomarkers, needed to assess Fitness and wellness
-				
+			
 Third Party Access
 
 Sheba One  does not allow any third party access  to your Data for commercial purposes, 
@@ -34,12 +34,13 @@ The Service Provider may disclose User Provided and Automatically Collected Info
 Opt-Out Rights
 You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
 
+
+
 Data Retention Policy
 Sheba One  does not store collected data in the data base,  even Sheba one  does not know  what information  you provided,  your information are only stored within App (Shebaone can't see that)  to provide you the appropriate fitness and wellness services.
 
 Children
 The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
-
 
 The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (support@shebaone.com.) so that they will be able to take the necessary actions.
 
@@ -49,7 +50,7 @@ The Service Provider is concerned about safeguarding the confidentiality of your
 Changes
 This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
-This privacy policy is effective as of 2024-07-06
+This privacy policy is effective as of 2025-01-01
 
 Your Consent
 By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
@@ -58,7 +59,8 @@ Contact Us
 If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at support@shebaone.com.
 
      
-THIS APP IS NOT INTENDED FOR MEDICAL USE, IS ONLY DESIGNED FOR GENERAL FITNESS AND WELLNESS  PURPOSES, IS NOT A MEDICAL DEVICE,  IT USES  SMARTPHONE  SENSORS LIKE  OPTICAL HEART RATE SENSOR,  PROXIMITY SENSOR, STEP DETECTOR SENSOR  etc
+THIS APP IS NOT INTENDED FOR MEDICAL USE, IT IS ONLY DESIGNED FOR GENERAL FITNESS AND WELLNESS  PURPOSES, IS NOT A MEDICAL DEVICE,  IT USES  SMARTPHONE  CAMERA/SENSORS  FOR TRACKING FITNESS AND WELNESS OF A USER.
+
 
 
 

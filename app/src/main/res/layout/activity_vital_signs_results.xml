@@ -22,7 +22,8 @@
         android:textColor="#900"
         android:justificationMode="inter_word"
         android:background="@drawable/textinputborder2"
-        android:text="This App is not intended  for medical use, is only designed for General Fitness and Wellness purposes,  is not a medical device,  it uses Smartphone sensors  to measure  Fitness and Wellness level of a User."
+        android:text="This App is not intended  for medical use, it is only designed for General Fitness and Wellness purposes."
+
         android:layout_height="wrap_content">
     </TextView>
 

@@ -41,7 +41,6 @@ drawable sheba_icon
 drawable side_nav_bar
 drawable start
 drawable step1
-drawable step2
 drawable textinputborder
 drawable textinputborder2
 id About
@@ -77,7 +76,13 @@ id activity_login
 id activity_o2_result
 id activity_respiration_result
 id activity_vital_signs_results
+id addButton
+id bloodSugarInput
+id bloodSugarText
 id checkBoxRemember
+id dateTimeInput
+id dateTimeText
+id deleteButton
 id drawer_layout
 id edta
 id edte
@@ -88,7 +93,6 @@ id edtp1
 id edtu
 id edtu1
 id edtw
-id fabAdd
 id id_call
 id id_home
 id id_instruction
@@ -105,15 +109,17 @@ id imageView5
 id imageView6
 id imageView7
 id imageView8
-id listView
 id logout
 id logout2
+id nameInput
+id nameText
 id nav_view
 id ndm
 id newacc
 id preview
 id prime
 id privacy_policy
+id recordsList
 id textView
 id textView2
 id textView3
@@ -125,9 +131,6 @@ id toolbar
 id tva
 id tvl
 id tvw
-id txtBloodSugar
-id txtDate
-id videoView
 layout activity_about_app
 layout activity_blood_pressure_process
 layout activity_blood_pressure_result
@@ -186,7 +189,6 @@ mipmap rrr
 mipmap rsz_download
 mipmap send
 mipmap start
-raw video
 string app_name
 string msg
 string nav_close

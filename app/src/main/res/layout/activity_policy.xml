@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Policy">
 
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:id="@+id/id_scroll"
@@ -20,5 +22,7 @@
             android:layout_centerInParent="true"/>
 
     </ScrollView>
+
+
 
 </RelativeLayout>

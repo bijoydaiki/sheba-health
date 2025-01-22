@@ -1,38 +1,45 @@
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Record_Page">
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <RelativeLayout
+    <EditText
+        android:id="@+id/nameInput"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
 
-        <!-- ListView to display blood sugar records -->
-        <ListView
-            android:id="@+id/listView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:divider="@android:color/darker_gray"
-            android:dividerHeight="0.5dp"
-            android:padding="16dp"
-            android:scrollbars="vertical"
-            android:focusable="false"
-            android:focusableInTouchMode="false" />
+    <EditText
+        android:id="@+id/bloodSugarInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Sugar (mg/dL)"
+        android:inputType="number"
+        android:layout_marginBottom="8dp"/>
 
-        <!-- Floating Action Button (FAB) to add new record -->
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fabAdd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:src="@android:drawable/ic_input_add"
-            app:fabSize="normal"
-            app:layout_anchorGravity="bottom|end"
-            android:contentDescription="Add Blood Sugar Record"
-            android:tint="@android:color/white" />
-    </RelativeLayout>
+    <EditText
+        android:id="@+id/dateTimeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date and Time"
+        android:focusable="false"
+        android:layout_marginBottom="8dp"/>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Record"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/recordsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

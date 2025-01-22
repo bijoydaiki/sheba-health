@@ -4,29 +4,24 @@ package com.riad.shebahealthcheck;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class DatabaseHelper extends SQLiteOpenHelper {
+import java.util.ArrayList;
+import java.util.List;
 
-    private static final String DATABASE_NAME = "blood_sugar.db";
+public class DatabaseHelper extends SQLiteOpenHelper {
+    private static final String DATABASE_NAME = "blood_glucose.db";
     private static final int DATABASE_VERSION = 1;
 
     // Table name
-    public static final String TABLE_BLOODSUGAR = "blood_sugar";
+    private static final String TABLE_GLUCOSE = "glucose_records";
 
     // Column names
-    public static final String COLUMN_ID = "_id";
-    public static final String COLUMN_DATE = "date";
-    public static final String COLUMN_BLOODSUGAR_LEVEL = "blood_sugar_level";
-
-    // SQL to create table
-    private static final String CREATE_TABLE =
-            "CREATE TABLE " + TABLE_BLOODSUGAR + " (" +
-                    COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                    COLUMN_DATE + " TEXT, " +
-                    COLUMN_BLOODSUGAR_LEVEL + " REAL);";
+    private static final String COLUMN_ID = "id";
+    private static final String COLUMN_NAME = "name";
+    private static final String COLUMN_BLOOD_SUGAR = "blood_sugar";
+    private static final String COLUMN_DATETIME = "datetime";
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -34,48 +29,96 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        String CREATE_TABLE = "CREATE TABLE " + TABLE_GLUCOSE + "("
+                + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
+                + COLUMN_NAME + " TEXT,"
+                + COLUMN_BLOOD_SUGAR + " INTEGER,"
+                + COLUMN_DATETIME + " TEXT"
+                + ")";
         db.execSQL(CREATE_TABLE);
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF EXISTS " + TABLE_BLOODSUGAR);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_GLUCOSE);
         onCreate(db);
     }
 
-    // Add a new blood sugar record
-    public long addBloodSugarRecord(String date, float bloodSugarLevel) {
+    // Create operation
+    public long insertRecord(GlucoseRecord record) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put(COLUMN_DATE, date);
-        values.put(COLUMN_BLOODSUGAR_LEVEL, bloodSugarLevel);
-        return db.insert(TABLE_BLOODSUGAR, null, values);
+        values.put(COLUMN_NAME, record.getName());
+        values.put(COLUMN_BLOOD_SUGAR, record.getBloodSugar());
+        values.put(COLUMN_DATETIME, record.getDateTime());
+        long id = db.insert(TABLE_GLUCOSE, null, values);
+        db.close();
+        return id;
     }
 
-    // Get all blood sugar records
-    public Cursor getAllBloodSugarRecords() {
+    // Read operation - get all records
+    public List<GlucoseRecord> getAllRecords() {
+        List<GlucoseRecord> records = new ArrayList<>();
+        String selectQuery = "SELECT * FROM " + TABLE_GLUCOSE + " ORDER BY " + COLUMN_DATETIME + " DESC";
         SQLiteDatabase db = this.getReadableDatabase();
-        return db.query(TABLE_BLOODSUGAR, null, null, null, null, null, COLUMN_DATE + " DESC");
+        Cursor cursor = db.rawQuery(selectQuery, null);
+
+        if (cursor.moveToFirst()) {
+            do {
+                GlucoseRecord record = new GlucoseRecord();
+                record.setId(cursor.getInt(cursor.getColumnIndex(COLUMN_ID)));
+                record.setName(cursor.getString(cursor.getColumnIndex(COLUMN_NAME)));
+                record.setBloodSugar(cursor.getInt(cursor.getColumnIndex(COLUMN_BLOOD_SUGAR)));
+                record.setDateTime(cursor.getString(cursor.getColumnIndex(COLUMN_DATETIME)));
+                records.add(record);
+            } while (cursor.moveToNext());
+        }
+        cursor.close();
+        db.close();
+        return records;
     }
 
-    // Get a specific blood sugar record by ID
-    public Cursor getBloodSugarRecordById(int id) {
+    // Read operation - get single record
+    public GlucoseRecord getRecord(long id) {
         SQLiteDatabase db = this.getReadableDatabase();
-        return db.query(TABLE_BLOODSUGAR, null, COLUMN_ID + " = ?", new String[]{String.valueOf(id)}, null, null, null);
+        Cursor cursor = db.query(TABLE_GLUCOSE,
+                new String[]{COLUMN_ID, COLUMN_NAME, COLUMN_BLOOD_SUGAR, COLUMN_DATETIME},
+                COLUMN_ID + "=?", new String[]{String.valueOf(id)},
+                null, null, null, null);
+
+        if (cursor != null)
+            cursor.moveToFirst();
+
+        GlucoseRecord record = new GlucoseRecord();
+        record.setId(cursor.getInt(cursor.getColumnIndex(COLUMN_ID)));
+        record.setName(cursor.getString(cursor.getColumnIndex(COLUMN_NAME)));
+        record.setBloodSugar(cursor.getInt(cursor.getColumnIndex(COLUMN_BLOOD_SUGAR)));
+        record.setDateTime(cursor.getString(cursor.getColumnIndex(COLUMN_DATETIME)));
+
+        cursor.close();
+        db.close();
+        return record;
     }
 
-    // Update a blood sugar record
-    public int updateBloodSugarRecord(int id, String date, float bloodSugarLevel) {
+    // Update operation
+    public int updateRecord(GlucoseRecord record) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put(COLUMN_DATE, date);
-        values.put(COLUMN_BLOODSUGAR_LEVEL, bloodSugarLevel);
-        return db.update(TABLE_BLOODSUGAR, values, COLUMN_ID + " = ?", new String[]{String.valueOf(id)});
+        values.put(COLUMN_NAME, record.getName());
+        values.put(COLUMN_BLOOD_SUGAR, record.getBloodSugar());
+        values.put(COLUMN_DATETIME, record.getDateTime());
+
+        int result = db.update(TABLE_GLUCOSE, values, COLUMN_ID + "=?",
+                new String[]{String.valueOf(record.getId())});
+        db.close();
+        return result;
     }
 
-    // Delete a blood sugar record
-    public int deleteBloodSugarRecord(int id) {
+    // Delete operation
+    public void deleteRecord(long id) {
         SQLiteDatabase db = this.getWritableDatabase();
-        return db.delete(TABLE_BLOODSUGAR, COLUMN_ID + " = ?", new String[]{String.valueOf(id)});
+        db.delete(TABLE_GLUCOSE, COLUMN_ID + "=?",
+                new String[]{String.valueOf(id)});
+        db.close();
     }
 }

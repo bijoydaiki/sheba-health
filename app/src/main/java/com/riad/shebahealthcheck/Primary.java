@@ -55,7 +55,7 @@ public class Primary extends AppCompatActivity implements NavigationView.OnNavig
         ImageButton RRate = this.findViewById(R.id.RR);
         Button VitalSigns = this.findViewById(R.id.VS);
         ImageButton Abt = this.findViewById(R.id.About);
-        Button Instruction = this.findViewById(R.id.id_instruction);
+//        Button Instruction = this.findViewById(R.id.id_instruction);
         Button Record = this.findViewById(R.id.id_record);
         step = findViewById(R.id.id_step);
 
@@ -71,7 +71,7 @@ public class Primary extends AppCompatActivity implements NavigationView.OnNavig
             @Override
             public void run() {
 
-                String imageURL = "https://raw.githubusercontent.com/riadrayhan/shoe_project/main/step2.jpg";
+                String imageURL = "https://raw.githubusercontent.com/riadrayhan/shoe_project/main/img.PNG";
 
                 try {
                     URL url = new URL(imageURL);
@@ -109,18 +109,18 @@ public class Primary extends AppCompatActivity implements NavigationView.OnNavig
 
         //====video view start========//
 
-        VideoView videoView = findViewById(R.id.videoView);
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.video;
-        Uri uri = Uri.parse(videoPath);
-        videoView.setVideoURI(uri);
-        videoView.requestFocus();
-        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-            @Override
-            public void onCompletion(MediaPlayer mediaPlayer) {
-                videoView.start();
-            }
-        });
-        videoView.start();
+//        VideoView videoView = findViewById(R.id.videoView);
+//        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.video;
+//        Uri uri = Uri.parse(videoPath);
+//        videoView.setVideoURI(uri);
+//        videoView.requestFocus();
+//        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+//            @Override
+//            public void onCompletion(MediaPlayer mediaPlayer) {
+//                videoView.start();
+//            }
+//        });
+//        videoView.start();
 
         //====video view end========//
 
@@ -190,13 +190,13 @@ public class Primary extends AppCompatActivity implements NavigationView.OnNavig
             finish();
         });
 
-        Instruction.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Primary.this, Instruction.class);
-                startActivity(i);
-            }
-        });
+//        Instruction.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent i = new Intent(Primary.this, Instruction.class);
+//                startActivity(i);
+//            }
+//        });
         step.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

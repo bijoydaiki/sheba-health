@@ -1,7 +1,7 @@
 <variant
     name="release"
     package="com.riad.shebahealthcheck"
-    minSdkVersion="24"
+    minSdkVersion="26"
     targetSdkVersion="34"
     shrinking="true"
     mergedManifest="build\intermediates\merged_manifest\release\AndroidManifest.xml"

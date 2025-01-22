@@ -3,7 +3,7 @@
     dir="C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app"
     name=":app"
     type="APP"
-    maven="Health Monitor:app:"
+    maven="Sheba Health Monitor:app:"
     agpVersion="8.2.2"
     buildFolder="build"
     bootClassPath="C:\Users\USER\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\USER\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"

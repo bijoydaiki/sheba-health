@@ -16,7 +16,7 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
-            app:title="Health Check"
+            app:title="Sheba Health Monitoring"
             android:layout_width="match_parent"
             android:background="#0D6526"
             app:popupTheme="@color/deep_green"

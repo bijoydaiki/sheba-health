@@ -3,7 +3,6 @@ package com.riad.shebahealthcheck;
 import android.os.Bundle;
 import android.widget.TextView;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
@@ -23,7 +22,7 @@ public class Policy extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView);
 
         try {
-            InputStream inputStream = getAssets().open("privacy_policy.txt");
+            InputStream inputStream = getAssets().open("Privacy_Policy.txt");
             Scanner scanner = new Scanner(inputStream);
             StringBuilder stringBuilder = new StringBuilder();
             while (scanner.hasNextLine()) {
@@ -37,5 +36,4 @@ public class Policy extends AppCompatActivity {
         }
     }
 
-        }
-
+}

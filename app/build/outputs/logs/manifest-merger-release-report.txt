@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:2:1-121:12
-INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:2:1-121:12
-INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:2:1-121:12
-INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:2:1-121:12
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:2:1-126:12
+INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:2:1-126:12
+INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:2:1-126:12
+INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:2:1-126:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\USER\.gradle\caches\transforms-3\ce6bd7fe6d879218ec03af7797a8539b\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\USER\.gradle\caches\transforms-3\14796aca05409ba7a2594c7b716442db\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\USER\.gradle\caches\transforms-3\6688d9a2f19c0d90cba02e22deda9738\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
@@ -124,9 +124,21 @@ uses-permission#android.permission.ACTIVITY_RECOGNITION
 ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:23:5-24:38
+	android:maxSdkVersion
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:24:9-35
+	android:name
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:25:5-26:38
+	android:maxSdkVersion
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:26:9-35
+	android:name
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:25:22-78
 application
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:24:5-119:19
-INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:24:5-119:19
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:29:5-124:19
+INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:29:5-124:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\USER\.gradle\caches\transforms-3\7bf998f9f4bdd84f156fbe08c4253964\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\USER\.gradle\caches\transforms-3\7bf998f9f4bdd84f156fbe08c4253964\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\USER\.gradle\caches\transforms-3\3c6b14974eada3b737e4646addd01d24\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -152,192 +164,192 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\US
 	android:extractNativeLibs
 		INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml
 	android:supportsRtl
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:32:9-35
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:37:9-35
 	android:label
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:35:9-41
 	android:appComponentFactory
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:26:9-77
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:31:9-77
 		REJECTED from [androidx.core:core:1.13.0] C:\Users\USER\.gradle\caches\transforms-3\19e7c0b98f8b685f3cf799bdf4313285\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:fullBackupContent
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:28:9-54
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:33:9-54
 	android:roundIcon
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:31:9-43
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:36:9-54
 	tools:targetApi
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:35:9-29
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:40:9-29
 	android:icon
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:29:9-38
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:34:9-43
 	android:allowBackup
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:30:9-35
 	android:theme
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:33:9-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:38:9-51
 	android:dataExtractionRules
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:27:9-65
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:32:9-65
 	tools:replace
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:34:9-52
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:39:9-52
 activity#com.riad.shebahealthcheck.Record_Page
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:36:9-38:40
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:37:13-40
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:42:13-40
 activity#com.riad.shebahealthcheck.Policy
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:39:9-41:40
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:41:13-37
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:40:13-35
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:45:13-35
 activity#com.riad.shebahealthcheck.ContactActivity
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:42:9-44:40
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:44:13-37
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:43:13-44
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:48:13-44
 activity#com.riad.shebahealthcheck.Step_Counter
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:45:9-47:40
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:47:13-37
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:46:13-41
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:51:13-41
 activity#com.riad.shebahealthcheck.Primary
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:48:9-54:70
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:53:9-59:70
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:53:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:58:13-51
 	android:label
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:52:13-59
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:57:13-59
 	android:exported
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:51:13-37
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:56:13-37
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:50:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:55:13-48
 	android:theme
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:54:13-67
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:59:13-67
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:49:13-36
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:54:13-36
 activity#com.riad.shebahealthcheck.Instruction
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:55:9-57:40
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:60:9-62:40
 	android:exported
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:57:13-37
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:62:13-37
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:56:13-40
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:61:13-40
 activity#com.riad.shebahealthcheck.First
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:58:9-66:20
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:63:9-71:20
 	android:exported
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:65:13-36
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:59:13-34
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:64:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:61:13-65:29
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:66:13-70:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:62:17-69
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:67:17-69
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:62:25-66
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:67:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:64:17-77
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:69:17-77
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:64:27-74
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:69:27-74
 activity#com.riad.shebahealthcheck.AboutApp
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:67:9-70:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:72:9-75:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:70:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:75:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:69:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:74:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:68:13-37
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:73:13-37
 activity#com.riad.shebahealthcheck.O2Result
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:71:9-74:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:76:9-79:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:74:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:79:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:73:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:78:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:72:13-37
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:77:13-37
 activity#com.riad.shebahealthcheck.BloodPressureResult
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:75:9-78:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:80:9-83:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:78:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:83:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:77:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:82:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:76:13-48
-activity#com.riad.shebahealthcheck.HeartRateResult
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:79:9-82:54
-	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:82:13-51
-	android:configChanges
 		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:81:13-48
+activity#com.riad.shebahealthcheck.HeartRateResult
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:84:9-87:54
+	android:screenOrientation
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:87:13-51
+	android:configChanges
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:86:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:80:13-44
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:85:13-44
 activity#com.riad.shebahealthcheck.RespirationResult
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:83:9-86:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:88:9-91:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:86:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:91:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:85:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:90:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:84:13-46
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:89:13-46
 activity#com.riad.shebahealthcheck.HeartRateProcess
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:87:9-90:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:92:9-95:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:90:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:95:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:89:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:94:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:88:13-45
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:93:13-45
 activity#com.riad.shebahealthcheck.BloodPressureProcess
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:91:9-94:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:96:9-99:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:94:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:99:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:93:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:98:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:92:13-49
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:97:13-49
 activity#com.riad.shebahealthcheck.O2Process
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:95:9-98:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:100:9-103:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:98:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:103:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:97:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:102:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:96:13-38
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:101:13-38
 activity#com.riad.shebahealthcheck.Login
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:99:9-102:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:104:9-107:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:102:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:107:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:101:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:106:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:100:13-34
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:105:13-34
 activity#com.riad.shebahealthcheck.RespirationProcess
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:103:9-106:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:108:9-111:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:106:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:111:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:105:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:110:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:104:13-47
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:109:13-47
 activity#com.riad.shebahealthcheck.StartVitalSigns
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:107:9-110:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:112:9-115:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:110:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:115:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:109:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:114:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:108:13-44
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:113:13-44
 activity#com.riad.shebahealthcheck.VitalSignsProcess
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:111:9-114:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:116:9-119:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:114:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:119:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:113:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:118:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:112:13-46
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:117:13-46
 activity#com.riad.shebahealthcheck.VitalSignsResults
-ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:115:9-118:54
+ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:120:9-123:54
 	android:screenOrientation
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:118:13-51
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:123:13-51
 	android:configChanges
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:117:13-48
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:122:13-48
 	android:name
-		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:116:13-46
+		ADDED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml:121:13-46
 uses-sdk
 INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\USER\AndroidStudioProjects\Sheba-Mobile-Health-Monitoring-main\app\src\main\AndroidManifest.xml

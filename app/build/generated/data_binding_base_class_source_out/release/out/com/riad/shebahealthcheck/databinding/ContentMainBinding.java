@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.VideoView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -41,9 +40,6 @@ public final class ContentMainBinding implements ViewBinding {
   public final Button VS;
 
   @NonNull
-  public final Button idInstruction;
-
-  @NonNull
   public final ImageButton idPlaystore;
 
   @NonNull
@@ -58,17 +54,10 @@ public final class ContentMainBinding implements ViewBinding {
   @NonNull
   public final ImageView imageView2;
 
-  @NonNull
-  public final ImageView imageView3;
-
-  @NonNull
-  public final VideoView videoView;
-
   private ContentMainBinding(@NonNull LinearLayout rootView, @NonNull ImageButton About,
       @NonNull ImageButton BP, @NonNull Button HR, @NonNull ImageButton O2, @NonNull ImageButton RR,
-      @NonNull Button VS, @NonNull Button idInstruction, @NonNull ImageButton idPlaystore,
-      @NonNull Button idRecord, @NonNull Button idStep, @NonNull ImageView imageView,
-      @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull VideoView videoView) {
+      @NonNull Button VS, @NonNull ImageButton idPlaystore, @NonNull Button idRecord,
+      @NonNull Button idStep, @NonNull ImageView imageView, @NonNull ImageView imageView2) {
     this.rootView = rootView;
     this.About = About;
     this.BP = BP;
@@ -76,14 +65,11 @@ public final class ContentMainBinding implements ViewBinding {
     this.O2 = O2;
     this.RR = RR;
     this.VS = VS;
-    this.idInstruction = idInstruction;
     this.idPlaystore = idPlaystore;
     this.idRecord = idRecord;
     this.idStep = idStep;
     this.imageView = imageView;
     this.imageView2 = imageView2;
-    this.imageView3 = imageView3;
-    this.videoView = videoView;
   }
 
   @Override
@@ -149,12 +135,6 @@ public final class ContentMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.id_instruction;
-      Button idInstruction = ViewBindings.findChildViewById(rootView, id);
-      if (idInstruction == null) {
-        break missingId;
-      }
-
       id = R.id.id_playstore;
       ImageButton idPlaystore = ViewBindings.findChildViewById(rootView, id);
       if (idPlaystore == null) {
@@ -185,21 +165,8 @@ public final class ContentMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView3;
-      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView3 == null) {
-        break missingId;
-      }
-
-      id = R.id.videoView;
-      VideoView videoView = ViewBindings.findChildViewById(rootView, id);
-      if (videoView == null) {
-        break missingId;
-      }
-
-      return new ContentMainBinding((LinearLayout) rootView, About, BP, HR, O2, RR, VS,
-          idInstruction, idPlaystore, idRecord, idStep, imageView, imageView2, imageView3,
-          videoView);
+      return new ContentMainBinding((LinearLayout) rootView, About, BP, HR, O2, RR, VS, idPlaystore,
+          idRecord, idStep, imageView, imageView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

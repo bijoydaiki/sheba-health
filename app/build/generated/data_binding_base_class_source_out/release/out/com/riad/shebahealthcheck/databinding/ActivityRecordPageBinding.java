@@ -4,13 +4,14 @@ package com.riad.shebahealthcheck.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.riad.shebahealthcheck.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -18,24 +19,37 @@ import java.lang.String;
 
 public final class ActivityRecordPageBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final FloatingActionButton fabAdd;
+  public final Button addButton;
 
   @NonNull
-  public final ListView listView;
+  public final EditText bloodSugarInput;
 
-  private ActivityRecordPageBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FloatingActionButton fabAdd, @NonNull ListView listView) {
+  @NonNull
+  public final EditText dateTimeInput;
+
+  @NonNull
+  public final EditText nameInput;
+
+  @NonNull
+  public final ListView recordsList;
+
+  private ActivityRecordPageBinding(@NonNull LinearLayout rootView, @NonNull Button addButton,
+      @NonNull EditText bloodSugarInput, @NonNull EditText dateTimeInput,
+      @NonNull EditText nameInput, @NonNull ListView recordsList) {
     this.rootView = rootView;
-    this.fabAdd = fabAdd;
-    this.listView = listView;
+    this.addButton = addButton;
+    this.bloodSugarInput = bloodSugarInput;
+    this.dateTimeInput = dateTimeInput;
+    this.nameInput = nameInput;
+    this.recordsList = recordsList;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -60,19 +74,38 @@ public final class ActivityRecordPageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fabAdd;
-      FloatingActionButton fabAdd = ViewBindings.findChildViewById(rootView, id);
-      if (fabAdd == null) {
+      id = R.id.addButton;
+      Button addButton = ViewBindings.findChildViewById(rootView, id);
+      if (addButton == null) {
         break missingId;
       }
 
-      id = R.id.listView;
-      ListView listView = ViewBindings.findChildViewById(rootView, id);
-      if (listView == null) {
+      id = R.id.bloodSugarInput;
+      EditText bloodSugarInput = ViewBindings.findChildViewById(rootView, id);
+      if (bloodSugarInput == null) {
         break missingId;
       }
 
-      return new ActivityRecordPageBinding((CoordinatorLayout) rootView, fabAdd, listView);
+      id = R.id.dateTimeInput;
+      EditText dateTimeInput = ViewBindings.findChildViewById(rootView, id);
+      if (dateTimeInput == null) {
+        break missingId;
+      }
+
+      id = R.id.nameInput;
+      EditText nameInput = ViewBindings.findChildViewById(rootView, id);
+      if (nameInput == null) {
+        break missingId;
+      }
+
+      id = R.id.recordsList;
+      ListView recordsList = ViewBindings.findChildViewById(rootView, id);
+      if (recordsList == null) {
+        break missingId;
+      }
+
+      return new ActivityRecordPageBinding((LinearLayout) rootView, addButton, bloodSugarInput,
+          dateTimeInput, nameInput, recordsList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

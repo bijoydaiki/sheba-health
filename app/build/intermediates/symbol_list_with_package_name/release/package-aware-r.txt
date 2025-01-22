@@ -3158,7 +3158,6 @@ drawable sheba_icon
 drawable side_nav_bar
 drawable start
 drawable step1
-drawable step2
 drawable test_level_drawable
 drawable textinputborder
 drawable textinputborder2
@@ -3268,6 +3267,7 @@ id activity_o2_result
 id activity_respiration_result
 id activity_vital_signs_results
 id add
+id addButton
 id alertTitle
 id aligned
 id all
@@ -3291,6 +3291,8 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bloodSugarInput
+id bloodSugarText
 id bottom
 id bounce
 id bounceBoth
@@ -3336,11 +3338,14 @@ id currentState
 id custom
 id customPanel
 id cut
+id dateTimeInput
+id dateTimeText
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteButton
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3391,7 +3396,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fabAdd
 id fade
 id fill
 id fill_horizontal
@@ -3466,7 +3470,6 @@ id line1
 id line3
 id linear
 id listMode
-id listView
 id list_item
 id locale
 id logout
@@ -3532,6 +3535,8 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameInput
+id nameText
 id nav_controller_view_tag
 id nav_host_fragment_container
 id nav_view
@@ -3597,6 +3602,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recordsList
 id rectangles
 id report_drawn
 id reverseSawtooth
@@ -3727,15 +3733,12 @@ id triangle
 id tva
 id tvl
 id tvw
-id txtBloodSugar
-id txtDate
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
 id vertical_only
-id videoView
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -4006,7 +4009,6 @@ mipmap rsz_download
 mipmap send
 mipmap start
 plurals mtrl_badge_content_description
-raw video
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
