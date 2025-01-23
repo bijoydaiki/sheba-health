@@ -12,20 +12,16 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\layout\\activity_start_vital_signs.xml"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_instruction.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\instruction.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxxhdpi_icon.webp.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxxhdpi\\icon.webp"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_instruction.png.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\instruction.png"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -48,12 +44,12 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-hdpi\\icon.webp"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_privacy_policy.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\layout_nav_header_main.xml.flat",
@@ -80,12 +76,12 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\layout\\activity_blood_pressure_process.xml"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-xxxhdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_step1.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\step1.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_logo.png.flat",
@@ -100,20 +96,20 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\layout_activity_respiration_process.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\layout\\activity_respiration_process.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\layout_activity_diabetes_result.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\layout\\activity_diabetes_result.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_ic_menu_slideshow.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\ic_menu_slideshow.xml"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\layout_activity_respiration_process.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\layout\\activity_respiration_process.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_border.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\ic_menu_slideshow.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-hdpi_ic_launcher_background.webp.flat",
@@ -136,6 +132,10 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xhdpi_icon_foreground.webp.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xhdpi\\icon_foreground.webp"
     },
@@ -152,16 +152,16 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\ic_menu_gallery.xml"
     },
     {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_send.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\send.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xhdpi_icon.webp.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xhdpi\\icon.webp"
-    },
-    {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\xml_data_extraction_rules.xml.flat",
@@ -176,8 +176,8 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\sheba_icon.jpg"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\layout_activity_primary2.xml.flat",
@@ -248,14 +248,6 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\login.PNG"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_about.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\about.xml"
     },
@@ -276,6 +268,10 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\share.PNG"
     },
     {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_icon.jpg.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\icon.jpg"
     },
@@ -286,6 +282,10 @@
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_ic_menu_camera.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-mdpi_icon_background.webp.flat",
@@ -316,6 +316,10 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\step1.jpg"
     },
     {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_bpr.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\bpr.png"
     },
@@ -328,18 +332,6 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\ro2.png"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-hdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\menu_activity_main_drawer.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\menu\\activity_main_drawer.xml"
     },
@@ -348,12 +340,12 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-mdpi\\icon_round.webp"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_icon.webp.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\icon.webp"
+        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/layout_activity_vital_signs_results.xml.flat",
+        "source": "com.riad.shebahealthcheck.app-main-46:/layout/activity_vital_signs_results.xml"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_icon.webp.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\icon.webp"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -364,12 +356,16 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\avs.png"
     },
     {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_new_account.PNG.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\new_account.PNG"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxxhdpi_icon_foreground.webp.flat",
@@ -392,10 +388,6 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\drawable_circular_progressbar.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\circular_progressbar.xml"
     },
@@ -404,16 +396,8 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxxhdpi_icon_round.webp.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxxhdpi\\icon_round.webp"
-    },
-    {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-anydpi-v26_icon.xml.flat",
@@ -452,10 +436,6 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-hdpi_icon_round.webp.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-hdpi\\icon_round.webp"
     },
@@ -478,10 +458,6 @@
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\layout_activity_step_counter.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\layout\\activity_step_counter.xml"
-    },
-    {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_bpl.png.flat",
@@ -512,8 +488,8 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\ab.png"
     },
     {
-        "merged": "com.riad.shebahealthcheck.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.riad.shebahealthcheck.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_rr1.png.flat",
@@ -522,6 +498,14 @@
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\layout_activity_o2_result.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\layout\\activity_o2_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\layout_activity_vital_signs_results.xml.flat",
@@ -552,6 +536,10 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\drawable\\sheba_header.PNG"
     },
     {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\layout_navigation_drawer_menu.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\layout\\navigation_drawer_menu.xml"
     },
@@ -566,6 +554,10 @@
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxhdpi_hr1.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxhdpi\\hr1.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.2\\com.riad.shebahealthcheck.app-merged_res-45:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",

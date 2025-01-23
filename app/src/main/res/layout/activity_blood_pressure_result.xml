@@ -18,10 +18,17 @@
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="10dp"
         android:scaleType="fitCenter"
-        android:background="@drawable/blood_pressure"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Blood Pressure Tracking"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content">
+    </TextView>
 
     <TextView
         android:id="@+id/BPT"
@@ -37,12 +44,26 @@
         android:textStyle="bold" />
 
     <TextView
+        android:layout_width="match_parent"
+        android:text="Normal Range\n120/80-140/90 mm Hg"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
         android:layout_width="wrap_content"
         android:id="@+id/id_txt"
-        android:background="@drawable/blood_normal"
         android:textColor="#000"
         android:textSize="22sp"
         android:textStyle="bold"
+        android:layout_height="10dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/red"
+        android:text="This App is not intended  for medical use, it is only designed for General Fitness and Wellness purposes. Results may vary at times."
         android:layout_height="wrap_content">
     </TextView>
     <ImageView
